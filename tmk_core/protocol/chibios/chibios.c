@@ -183,6 +183,7 @@ void protocol_pre_task(void) {
 #endif
 
     usb_event_queue_task();
+    usb_idle_task();
 }
 
 void protocol_post_task(void) {
